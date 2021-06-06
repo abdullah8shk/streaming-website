@@ -12,7 +12,7 @@ export default function Rails(props) {
     swipeToSlide: true,
     draggable: true,
     slidesToShow: 6,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     initialSlide: 0,
     responsive: [
       {
@@ -39,13 +39,13 @@ export default function Rails(props) {
           slidesToShow: 2,
         },
       },
-      {
-        breakpoint: 410,
-        settings: {
-          slidesToShow: 1,
-          style: { marginLeft: '25%', marginRight: '4%' },
-        },
-      },
+      // {
+      //   breakpoint: 410,
+      //   settings: {
+      //     slidesToShow: 1,
+      //     style: { marginLeft: '25%', marginRight: '4%' },
+      //   },
+      // },
     ],
   };
 
