@@ -62,7 +62,7 @@ export default function Rails(props) {
         <div className='rails__titleContainer'>
           <p className='rails__title'>{title}</p>
         </div>
-        <div>
+        <div className='d-none d-sm-inline'>
           <button onClick={previous} className='btn p-0 bg-dark'>
             <img src={leftArrow} width='25' alt='left' />
           </button>
