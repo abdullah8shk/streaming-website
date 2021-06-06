@@ -98,7 +98,7 @@ export default function Footer() {
             </svg>
           </Link>
           <Link
-            className='btn btn-link btn-floating btn-lg text-dark m-1'
+            className='btn btn-link btn-floating btn-lg text-dark m-1 d-none d-sm-inline'
             to='/github'
             role='button'
             data-mdb-ripple-color='dark'>

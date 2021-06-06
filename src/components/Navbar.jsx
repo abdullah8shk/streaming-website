@@ -45,6 +45,9 @@ function Navbar() {
                 Profile
               </button>
               <button className='dropdown-item' type='button'>
+                Favorites
+              </button>
+              <button className='dropdown-item' type='button'>
                 Log In
               </button>
             </div>

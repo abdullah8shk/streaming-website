@@ -25,6 +25,9 @@ body {
     .dropdown-menu.dropdown-menu-left.show {
         left: -133px;
     }
+    .dropdown-item:active {
+        background-color: #bd161b;
+    }
 }
 
 div.navLinks {
