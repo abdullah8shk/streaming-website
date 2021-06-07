@@ -48,7 +48,7 @@ export const Search = (props) => {
 };
 
 export const CircleChecked = (props) => {
-  const { color = '#fff' } = props;
+  // const { color = '#fff' } = props;
 
   return (
     <>
@@ -66,7 +66,7 @@ export const CircleChecked = (props) => {
   );
 };
 export const CircleUnchecked = (props) => {
-  const { color = '#fff' } = props;
+  // const { color = '#fff' } = props;
 
   return (
     <>
@@ -83,7 +83,7 @@ export const CircleUnchecked = (props) => {
   );
 };
 export const Facebook = (props) => {
-  const { color = '#fff' } = props;
+  // const { color = '#fff' } = props;
 
   return (
     <>
@@ -102,7 +102,7 @@ export const Facebook = (props) => {
 };
 
 export const Twitter = (props) => {
-  const { color = '#fff' } = props;
+  // const { color = '#fff' } = props;
 
   return (
     <>
@@ -119,7 +119,7 @@ export const Twitter = (props) => {
 };
 
 export const Google = (props) => {
-  const { color = '#fff' } = props;
+  // const { color = '#fff' } = props;
 
   return (
     <>
@@ -140,7 +140,7 @@ export const Google = (props) => {
   );
 };
 export const Instagram = (props) => {
-  const { color = '#fff' } = props;
+  // const { color = '#fff' } = props;
 
   return (
     <>
@@ -161,7 +161,7 @@ export const Instagram = (props) => {
   );
 };
 export const Linkedin = (props) => {
-  const { color = '#fff' } = props;
+  // const { color = '#fff' } = props;
 
   return (
     <>
@@ -182,7 +182,7 @@ export const Linkedin = (props) => {
   );
 };
 export const Github = (props) => {
-  const { color = '#fff' } = props;
+  // const { color = '#fff' } = props;
 
   return (
     <>
