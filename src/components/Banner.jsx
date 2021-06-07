@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import leftArrow from '../assets/png/leftArrow.png';
 import rightArrow from '../assets/png/rightArrow.png';
 import { bannerData } from '../data/banner';
+import { CircleChecked, CircleUnchecked } from '../Icons/SvgIcons';
 
 function Banner() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -36,28 +37,7 @@ function Banner() {
     ),
     customPaging: (i) => (
       <div className='d-none d-md-block'>
-        {currentIndex === i ? (
-          <svg
-            xmlns='http://www.w3.org/2000/svg'
-            height='24px'
-            viewBox='0 0 24 24'
-            width='24px'
-            fill='#FFFFFF'>
-            <path d='M0 0h24v24H0V0z' fill='none' />
-            <path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z' />
-            <circle cx='12' cy='12' r='5' />
-          </svg>
-        ) : (
-          <svg
-            xmlns='http://www.w3.org/2000/svg'
-            height='15px'
-            viewBox='0 0 24 24'
-            width='15px'
-            fill='#FFFFFF'>
-            <path d='M0 0h24v24H0V0z' fill='none' />
-            <path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z' />
-          </svg>
-        )}
+        {currentIndex === i ? <CircleChecked /> : <CircleUnchecked />}
       </div>
     ),
     // beforeChange: (current, next) => setCurrentIndex(current),
